@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddQuestion</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.AddQuestion</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>isHasUserName</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.isHasUserName</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>NextQuestion</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.NextQuestion</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveCored</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.SaveCored</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Final</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Final</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Sort</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Sort</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddQuestion</servlet-name>
+    <url-pattern>/AddQuestion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>isHasUserName</servlet-name>
+    <url-pattern>/isHasUserName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NextQuestion</servlet-name>
+    <url-pattern>/NextQuestion</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveCored</servlet-name>
+    <url-pattern>/SaveCored</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Final</servlet-name>
+    <url-pattern>/Final</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Sort</servlet-name>
+    <url-pattern>/Sort</url-pattern>
+  </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	/*background-image: url(../img/bg.jpg);*/
+	background-size: 100% 100%;
+}
+.game_box{
+	width: 1200px;
+	/*background: red;*/
+	margin: 0 auto;
+	position: relative;
+	/*border: 1px solid red;*/
+}
+.box_1{
+	width: 702px;
+	height: 543px;
+	background-image: url(../img/box1_bg.png);
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+.over_time{
+	width: 95px;
+	height: 95px;
+	/*background-color: green;*/
+	position: absolute;
+	border-radius: 50%;
+	left: 305px;
+	top: 12px;
+	font-size: 60px;
+	text-align: center;
+	line-height: 95px;
+	color: #FF0000;
+}
+.gg_title{
+	width: 80%;
+	height: 50px;
+	/*background-color: yellow;*/
+	position: absolute;
+	left: 10%;
+	top: 130px;
+	font-size: 30px;
+	text-align: center;
+}
+.gg_answer{
+	width:370px;
+	height: 240px;
+	/*background-color: green;*/
+	position: absolute;
+	left: 165px;
+	top: 260px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+	color: white;
+}
+.ans1{
+	width: 308px;
+	height: 50px;
+	background-image: url(../img/ans.png);
+	background-size: 308px 50px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.ans2{
+	width: 308px;
+	height: 50px;
+	background-image: url(../img/ans.png);
+	background-size: 308px 50px;
+	position: absolute;
+	right: 0;
+	top: 60px;
+}
+
+.ans3{
+	width: 308px;
+	height: 50px;
+	background-image: url(../img/ans.png);
+	background-size: 308px 50px;
+	position: absolute;
+	left: 0;
+	top: 120px;
+}
+
+.ans4{
+	width: 308px;
+	height: 50px;
+	background-image: url(../img/ans.png);
+	background-size: 308px 50px;
+	position: absolute;
+	right: 0;
+	top: 180px;
+}
+.box_2{
+	width: 400px;
+	height: 543px;
+	/*background-image: url(../img/box1_bg.png);*/
+	position: absolute;
+	/*background-color: red;*/
+	/*border: 1px red solid;*/
+	right: 20px;
+	top: 20px;
+	background-image: url(../img/bg_name.png);
+	background-size: 100% 100%;
+	background-position-y: 50px;
+	
+}
+.logo{
+	width: 140px;
+	height: 172px;
+	background-image: url(../img/logo.png);
+	background-size: 100% 100%;
+	position: absolute;
+	left: 80px;
+	top:-20px;
+}
+.hat{
+	width: 120px;
+	height: 173px;
+	background-image: url(../img/hat.png);
+	background-size: 100% 100%;
+	position: absolute;
+	left: 10px;
+	top: 150px;
+}
+.topname{
+	width: 280px;
+	height: 300px;
+	/*background-color: red;*/
+	position: absolute;
+	left: 120px;
+	top: 150px;
+	line-height: 55px;
+	font-size: 24px;
+	color: #666;
+	
+}
+.topname1{
+	width: 100%;
+	height: 55px;
+	/*background-color: green;*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	color: red;
+	font-weight: bold;
+}
+.topname2{
+	width: 100%;
+	height: 55px;
+	/*background-color: green;*/
+	position: absolute;
+	left: 0;
+	top: 55px;
+}
+.topname3{
+	width: 100%;
+	height: 55px;
+	/*background-color: green;*/
+	position: absolute;
+	left: 0;
+	top: 110px;
+}
+.topname4{
+	width: 100%;
+	height: 55px;
+	/*background-color: green;*/
+	position: absolute;
+	left: 0;
+	top: 165px;
+}
+.topname5{
+	width: 100%;
+	height: 55px;
+	/*background-color: green;*/
+	position: absolute;
+	left: 0;
+	top: 220px;
+}
+.box_3{
+	width: 100%;
+	height: 300px;
+	/*background-color: red;*/
+	position: absolute;
+	top: 580px;
+	left: 20px;
+}
+.info{
+	width: 1100px;
+	height: 200px;
+	/*background-color: red;*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 10px;
+	border: 1px solid deepskyblue;
+	background-color: rgba(255,255,255,0.5);
+	overflow:scroll;
+}
+.talk{
+	width: 900px;
+	height: 50px;
+	position: absolute;
+	top: 210px;
+	border-radius: 10px;
+
+}
+.talk1{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	outline: none;
+	padding-left:10px ;
+	font-size: 18px;
+}
+.sub{
+	width: 180px;
+	height: 50px;
+	border-radius: 10px;
+	position: absolute;
+	left: 920px;
+	top: 210px;
+	outline: none;
+}
+.ans{
+	transition: all 0.1s;
+}
+.ans:hover{
+	transform: scale(1.1);
+}
+.tn{
+	transition: all 0.1s;
+}
+.tn:hover{
+	transform: scale(1.1);
+}
